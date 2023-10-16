@@ -220,7 +220,7 @@ def send_recommendations(intent_request):
     time  =  slots["Time"]
     email= slots["Email"]
     response = client.send_message(
-        QueueUrl='https://sqs.us-east-1.amazonaws.com/353244348651/LexV2SlotsQueue',
+        QueueUrl='######',
         MessageAttributes={
                     'cuisine': {
                         'DataType': 'String',
